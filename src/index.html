@@ -3,8 +3,47 @@
   <head>
     <meta charset="utf-8"/>
     <title>Tax Calculator</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <div>Static div test</div>
+    <div class="tbl">
+      <table>
+        <thead><tr> 
+              <th></th>
+              <td>Income</td> 
+              <td>Currency</td> 
+              <td>Date</td> 
+              <td>Exchange rate</td> 
+              <td>Converted income</td>
+              <td>Tax</td>
+          </tr></thead>
+          <tbody>
+            <tr>
+              <th><button class="delete" name="D">D</button></th>
+              <td><input type="number"></td>
+              <td><input type="text" list="list">
+                <datalist id="list">
+                  <option value="USD">$ USD</option>
+                  <option value="EUR">€ EUR</option>
+                </datalist>
+                </td>
+              <td><input type="date"></td>
+              <td>33</td>
+              <td>0.00</td>
+              <td>1.11</td>
+            </tr>
+            
+        </thead>
+      </table>
+      <div class="result">
+        <h5>Total</h5>
+        <p id="output">1000</p>
+      </div>
+      <div class="pushrow">
+        <button class="greenbtn">"+" Add line "+"</button>
+      </div>
+    </div>
+
   </body>
 </html>

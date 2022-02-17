@@ -1,3 +1,59 @@
+body{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
 .hello {
   color: red;
+}
+
+
+table{
+  margin: auto;
+  width: 98%;
+  border: 2px solid #ccc;
+  border-radius: 3%;
+  background-color: rgb(241, 255, 233);
+}
+th{
+  width: 2%;
+}
+.delete{
+  background-color: rgba(246, 8, 8, 0.883);
+  border: 1px solid rgb(151, 149, 149);
+  border-radius: 20%;
+  cursor: pointer;
+}
+
+input{
+  border: none;
+  background-color:rgb(241, 255, 233) ;
+  outline: none;
+}
+
+tbody td{
+  width: 14%;
+  border: 1px solid #000000;
+  border-radius: 3%;
+}
+.result{
+  float: right;
+  width: 15%;
+  border-radius: 3%;
+}
+#output{
+  border: 1px solid #000000;
+  margin-right: 4%;
+  border-radius: 3%;
+}
+.pushrow{
+  margin-top: 15px;
+  margin-left: 2%;
+}
+.greenbtn{
+  width: 20%;
+  height: 26px;
+  border: 2px solid #012406;
+  border-radius: 8%;
+  background: linear-gradient( rgb(1, 61, 1), rgb(53, 114, 25), rgb(1, 61, 1));
+  color:azure
 }
