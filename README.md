@@ -9,12 +9,18 @@ For initial project setup(or if you `node_modules/` folder is missing) you shoul
 ```
 npm install
 ```
-
+***
 Then you can build the project with the following command:   
 ```
 npm run build
 ```
-Static files should be generated in the `dist/` folder
+Static files should be generated in the `dist/` folder  
+***
+You can also start a dev server:
+```
+npm run start
+```
+The result should accessible at http://localhost:8080/
 
 ## Github Pages
 TODO
