@@ -5,6 +5,40 @@
     <title>Tax Calculator</title>
   </head>
   <body>
-    <div>Static div test</div>
+    <div class="tbl">
+
+      <div class="table-row-main">
+        <div class="non"></div>
+        <div class="div-th"><p>Income</p></div>
+        <div class="div-th"><p>Currency</p></div>
+        <div class="div-th"><p>Date</p></div>
+        <div class="div-th"><p>Exchange rate	</p></div>
+        <div class="div-th"><p>Converted income</p></div>
+        <div class="div-th"><p>Tax</p></div>
+        </div>
+        <!--line-->
+       <div class="table-row">
+        <div class="non"><button class="delete" name="D">D</button></div>
+        <div class="div-th"><input type="number"></div>
+        <div class="div-th"><input type="text" list="list">
+          <datalist id="list">
+            <option value="USD">$ USD</option>
+            <option value="EUR">€ EUR</option>
+          </datalist>
+        </div>
+        <div class="div-th"><input type="date"></div>
+        <div class="div-th">6.67</div>
+        <div class="div-th">7.78</div>
+        <div class="div-th">3.00</div>
+      </div>
+      <div class="result">
+        <h5>Total</h5>
+        <p id="output">1000</p>
+      </div>
+      <div class="pushrow">
+        <button class="greenbtn">"+" Add line "+"</button>
+      </div>
+    </div>
+
   </body>
 </html>
